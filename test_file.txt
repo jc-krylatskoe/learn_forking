@@ -23,7 +23,7 @@ def get_job_objects_one_page(r, all_jobs: List) -> None:
                 current_job.actions = contents
             elif i["data-th"] == "Area of Interest":
                 current_job.skill = contents
-            elif i["data-th"] == "Location":
+            elif i["data-th"] == "MyNewLocation1":
                 current_job.location = contents
             elif i["data-th"] == "Alternate Location":
                 current_job.alt_location = contents
