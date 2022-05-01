@@ -19,7 +19,7 @@ def get_job_objects_one_page(r, all_jobs: List) -> None:
         if contents:
             if i["data-th"] == "Job Title":
                 current_job.title = contents
-            elif i["data-th"] == "Actions":
+            elif i["data-th"] == "MyNewActions2":
                 current_job.actions = contents
             elif i["data-th"] == "Area of Interest":
                 current_job.skill = contents
